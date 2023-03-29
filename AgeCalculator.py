@@ -1,5 +1,4 @@
 from datetime import date
-
 def calculate_age(birthdate):
     today = date.today()
     years = today.year - birthdate.year
